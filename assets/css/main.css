@@ -1,0 +1,373 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: STANLEY - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
+
+body {
+  	background-color: #ffffff;
+  	font-family: 'Montserrat', sans-serif; 
+  	/* font-family: 'Josefin Slab';*/
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif; 
+	/* font-family: 'Josefin Slab';*/
+    font-weight: 800;
+    color: #333;
+}
+
+h1 {
+	font-size: 38px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #1abc9c;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+TH { text-align: center; font-weight: bold }
+
+.navbar {
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	font-weight: 700;
+	font-size: 28px;
+
+}
+
+.navbar-inverse {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.navbar-inverse {
+	background-color: #1abc9c;
+	border-color: #16a085;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #222222;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 28px;
+	letter-spacing: 2px;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: transparent;
+}
+
+.progress-bar-theme {
+  background-color: #1abc9c;
+}
+
+
+/* Helpers */
+
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.pt {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+/* +++++ WRAP SECTIONS +++++ */
+
+#ww {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #f2f2f2;
+}
+
+
+#footer {
+	background-color: #2f2f2f;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+}
+
+#footer p {
+	color: white;
+}
+
+#footer h4 {
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+
+/* +++++ Color Wraps / Blog Page +++++ */
+
+#grey {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #f2f2f2;
+}
+
+#white {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #ffffff;
+}
+
+
+
+/* Blog Date*/
+bd {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #d2d2d2;
+	font-weight: 700;
+}
+
+/* Blog Author*/
+ba {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+/* Blog Quote */
+.bq {
+	font-size: 22px;
+	padding-top: 30px;
+}
+
+/* Blog Tags */
+bt {
+	font-size: 12px;
+}
+
+/* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
+/* Effects also are controled by hover.zoom.js */
+.zoom { 
+    display:block; 
+    position:relative; 
+    overflow:hidden; 
+    background:transparent url(../img/loader.gif) no-repeat center;
+}
+
+
+    .zoomOverlay {
+        position:absolute;
+        top:0; left:0;
+        bottom:0; right:0;
+        display:none;
+        background-image:url(../img/zoom.png);
+        background-repeat:no-repeat;
+        background-position:center;
+    }
+
+.zoom2 {
+	opacity: 1;
+}
+
+.zoom2:hover {
+	opacity: 0.5;
+}
+
+/* glyphicon Configuration */
+
+.glyphicon {
+	font-size: 40px;
+	color: #1abc9c;
+}
+
+
+
+.circle {
+	display: inline-block;
+	width: 300px;
+	height:300px;
+	border-radius: 50%;
+	border: 1px solid #eee;
+	padding: 5px;
+	background:#fff;
+}
+.inner {
+	background-image: url(../img/long.jpg);
+	background-size:cover;
+	background-position:center center;
+	height: 100%;
+	border-radius:50%;
+}
+
+.list-unstyled-lg {
+  padding-left: 40px;
+  /*margin-bottom: 40px;*/
+  list-style: none;
+}
+
+.list-unstyled-lg > li:not(:last-child) {
+    font-family: 'Josefin Slab';
+    font-size:150%;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.list-unstyled-lg > li:last-child {
+    font-family: 'Josefin Slab';
+    font-size:150%;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.list-unstyled-lg-indented {
+  padding-left: 100px;
+  /*margin-bottom: 40px;*/
+  list-style: none;
+}
+
+.list-unstyled-lg-indented > li:not(:last-child) {
+    font-family: 'Josefin Slab';
+    font-size:150%;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.list-unstyled-lg-indented > li:last-child {
+    font-family: 'Josefin Slab';
+    font-size:150%;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.header-lg {
+    font-family: 'Josefin Slab';  
+    font-size:250%; 
+    margin-top: 50px; 
+    margin-bottom: 20px;
+}
+
+.large-lg {
+    font-family: 'Josefin Slab';  
+    font-size:200%; 
+    margin-top: 0px; 
+    margin-left: 40px;   
+}
+
+.indent-lg {
+    font-family: 'Josefin Slab';  
+    font-size:150%; 
+    margin-top: 0px; 
+    margin-left: 100px;   
+    margin-bottom: 50px;
+}
+
+.indent-lg-not-last {
+    font-family: 'Josefin Slab';  
+    font-size:150%; 
+    margin-top: 0px; 
+    margin-left: 100px;
+    margin-bottom: 10px;   
+}
+
+
+/* Side notes for calling out things
+-------------------------------------------------- */
+/* copied from https://gist.github.com/matthiasg/6153853 */
+/* Base styles (regardless of theme) */
+.bs-callout {
+  margin: 20px 0;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid #eee;
+}
+.bs-callout h4 {
+  margin-top: 0;
+}
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+.bs-callout code,
+.bs-callout .highlight {
+  background-color: #fff;
+}
+
+/* Themes for different contexts */
+.bs-callout-danger {
+  background-color: #fcf2f2;
+  border-color: #dFb5b4;
+}
+.bs-callout-warning {
+  background-color: #fefbed;
+  border-color: #f1e7bc;
+}
+.bs-callout-info {
+  background-color: #f0f7fd;
+  border-color: #d0e3f0;
+}

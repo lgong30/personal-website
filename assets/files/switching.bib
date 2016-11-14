@@ -1,0 +1,69 @@
+% Encoding: UTF-8
+
+@InProceedings{DaiPrabhakar2000a,
+  author =    {Dai, J.G. and Prabhakar, B.},
+  title =     {{The throughput of data switches with and without speedup}},
+  booktitle = {IEEE INFOCOM 2000},
+  year =      {2000},
+  volume =    {2},
+  number =    {c},
+  pages =     {556--564},
+  abstract =  {In this paper we use fluid model techniques to establish two$\backslash$nresults concerning the throughput of data switches. For an input-queued$\backslash$nswitch (with no speedup) we show that a maximum weight algorithm for$\backslash$nconnecting inputs and outputs delivers a throughput of 100{\%}, and for$\backslash$ncombined input- and output-queued switches that run at a speedup of 2 we$\backslash$nshow that any maximal matching algorithm delivers a throughput of 100{\%}.$\backslash$nThe only assumptions on the input traffic are that it satisfies the$\backslash$nstrong law of large numbers and that it does not oversubscribe any input$\backslash$nor any output},
+  doi =       {10.1109/INFCOM.2000.832229},
+  file =      {:C$\backslash$:/Users/gtuser/Google Drive/paper lib/The throughput of data switches with and without speedup - 2000(2).pdf:pdf},
+  isbn =      {0-7803-5880-5},
+  issn =      {0743-166X},
+  url =       {http://people.orie.cornell.edu/jdai/publications/daiPrabhakar00.pdf}
+}
+
+@Article{Ephremides1992,
+  author =   {Ephremides, Anthony},
+  title =    {{Stability Properties of Constrained Queueing Systems and Scheduling Policies for Maximum Throughput in Multihop Radio Networks}},
+  journal =  {IEEE Transactions on Automatic Control},
+  year =     {1992},
+  volume =   {37},
+  number =   {12},
+  pages =    {1936--1948},
+  abstract = {The stability of a queuing network with interdependent servers is considered. The dependency among the servers is described by defining subsets of servers that can be activated simultaneously. Packet radio networks provide the motivation for the consideration of these systems. The problem of scheduling server activation under the constraints imposed by the dependency among them is studied. The stability region of the network under a specific scheduling policy is the set of vectors of arrival rates in the queues of the system for which the stochastic process of the queue lengths is ergodic. The `supremum' (i.e., union) of the stability regions over all the policies is characterized. Then a scheduling policy is specified, the stability region of which is equal to the union of the stability regions over all the policies. Finally, the behavior of the network for arrival rates outside the stability region is studied},
+  doi =      {10.1109/9.182479},
+  file =     {:C$\backslash$:/Users/gtuser/Google Drive/paper lib/Stability Properties of Constrained Queueing Systems and Scheduling Policies for Maximum Throughput in Multihop Radio Networks - 1992.pdf:pdf},
+  isbn =     {0018-9286},
+  issn =     {15582523},
+  url =      {http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=182479}
+}
+
+@InProceedings{GanjaliKeshavarzianShah2003,
+  author =    {Ganjali, Y and Keshavarzian, a and Shah, Devavrat},
+  title =     {{Input queued switches: cell switching vs. packet switching}},
+  booktitle = {IEEE INFOCOM 2003},
+  year =      {2003},
+  volume =    {3},
+  number =    {C},
+  pages =     {1651--1658 vol.3},
+  abstract =  {Input Queued (IQ) switches have been very well studied in the recent past. The main problem in the IQ switches concerns scheduling. The main focus of the research has been the fixed length packet-known as cells-case. The scheduling decision becomes relatively easier for cells compared to the variable length packet case as scheduling needs to be done at a regular interval of fixed cell time. In real traffic dividing the variable packets into cells at the input side of the switch and then reassembling these cells into packets on the output side achieve it. The disadvantages of this cell-based approach are the following: (a) bandwidth is lost as division of a packet may generate incomplete cells, and (b) additional overhead of segmentation and reassembling cells into packets. This motivates the packet scheduling: scheduling is done in units of arriving packet sizes and in nonpreemptive fashion. In M.A. Marsan et al. (2001) the problem of packet scheduling was first considered. They show that under any admissible Bernoulli i.i.d. arrival traffic a simple modification of maximum weight matching (MWM) algorithm is stable, similar to cell-based MWM. In this paper, we study the stability properties of packet based scheduling algorithm for general admissible arrival traffic pattern. We first show that the result of Marsan et al. extends to general regenerative traffic model instead of just admissible traffic, that is, packet based MWM is stable. Next we show that there exists an admissible traffic pattern under which any work-conserving (that is maximal type) scheduling algorithm will be unstable. This suggests that the packet based MWM will be unstable too. To overcome this difficulty we propose a new class of "waiting" algorithms. We show that "waiting"-MWM algorithm is stable for any admissible traffic using fluid limit technique.},
+  doi =       {10.1109/INFCOM.2003.1209188},
+  file =      {:C$\backslash$:/Users/gtuser/Google Drive/paper lib/Input queued switches cell switching vs. packet switching - 2003.PDF:PDF},
+  isbn =      {0743-166X VO - 3},
+  issn =      {0743166X},
+  journal =   {INFOCOM 2003. Twenty-Second Annual Joint Conference of the IEEE Computer and Communications. IEEE Societies},
+  keywords =  {Bernoulli i.i.d. arrival traffic,IQ switch,Input Queued switch,bandwidth packet,fixed length packet,fluid limit technique,maximum weight matching,packet scheduling algorithm,packet switching,queueing theory,reassembling cell,scheduling,traffic pattern,variable length packet,waiting-MWM algorithm},
+  url =       {http://infocom2003.ieee-infocom.org/papers/40_04.PDF}
+}
+
+@Article{Marsan2002,
+  author =   {Marsan, Marco Ajmone and Bianco, Andrea and Giaccone, Paolo and Leonardi, Emilio and Neri, Fabio},
+  title =    {{Packet-mode scheduling in input-queued cell-based switches}},
+  journal =  {IEEE/ACM Transactions on Networking},
+  year =     {2002},
+  volume =   {10},
+  number =   {5},
+  pages =    {666--678},
+  abstract = {Input-queued switch architectures play a major role in the design$\backslash$nof high performance switches and routers for packet networks. These$\backslash$narchitectures must be controlled by a scheduling algorithm, which solves$\backslash$ncontentions in the transfer of data units from inputs to outputs.$\backslash$nSeveral scheduling algorithms were proposed in the literature for$\backslash$ninput-queued cell switches, operating on fixed-size data units. In this$\backslash$npaper we consider the case of packet switches, i.e., devices operating$\backslash$non variable-size data units at their interfaces, but internally$\backslash$noperating on cells, and we propose novel extensions of known scheduling$\backslash$nalgorithms. We prove that the maximum throughput achievable by$\backslash$ninput-queued packet switches is identical to that achievable with input-$\backslash$nand output-queued cell switches. We show by simulation that, in the case$\backslash$nof packet switches, input-queued architectures may provide performance$\backslash$nadvantages over output-queued architectures},
+  doi =      {10.1109/TNET.2002.803939},
+  file =     {:C$\backslash$:/Users/gtuser/Google Drive/paper lib/Packet-mode scheduling in input-queued cell-based switches - 2002.pdf:pdf},
+  isbn =     {0-7803-7016-3},
+  issn =     {10636692},
+  keywords = {Input queued switched,Packet switching,Scheduling algorithms,Variable size packets},
+  url =      {http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=916302}
+}
+

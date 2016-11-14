@@ -1,0 +1,155 @@
+% Encoding: UTF-8
+
+@InProceedings{Cohen2003a,
+  author =    {Cohen, Saar and Matias, Yossi},
+  title =     {{Spectral bloom filters}},
+  booktitle = {ACM SIGMOD 2003},
+  year =      {2003},
+  pages =     {241--252},
+  abstract =  {A Bloom Filter is a space-efficient randomized data structure allowing membership queries over sets with certain allowable errors. It is widely used in many applications which take advantage of its ability to compactly represent a set, and filter out effectively any element that does not belong to the set, with small error probability. This paper introduces the Spectral Bloom Filter {\{}(SBF){\}}, an extension of the original Bloom Filter to multi-sets, allowing the filtering of elements whose multiplicities are below a threshold given at query time. Using memory only slightly larger than that of the original Bloom Filter, the {\{}SBF{\}} supports queries on the multiplicities of individual keys with a guaranteed, small error probability. The {\{}SBF{\}} also supports insertions and deletions over the data set. We present novel methods for reducing the probability and magnitude of errors. We also present an efficient data structure and algorithms to build it incrementally and maintain it over streaming data, as well as over materialized data with arbitrary insertions and deletions. The {\{}SBF{\}} does not assume any a priori filtering threshold and effectively and efficiently maintains information over the entire data-set, allowing for ad-hoc queries with arbitrary parameters and enabling a range of new applications.},
+  doi =       {10.1145/872757.872787},
+  file =      {:C$\backslash$:/Users/gtuser/Google Drive/paper lib/Spectral bloom filters - 2003.pdf:pdf},
+  isbn =      {1-58113-634-X},
+  issn =      {07308078},
+  url =       {http://theory.stanford.edu/~matias/papers/sbf-sigmod-03.pdf}
+}
+
+@Article{Cormode2004,
+  author =  {Cormode, G and Muthukrishnan, S},
+  title =   {{Improved Data Stream Summaries: The Count-Min Sketch and its Applications}},
+  journal = {Journal of Algorithms},
+  year =    {2004},
+  number =  {December 2003},
+  pages =   {29--38},
+  file =    {:C$\backslash$:/Users/gtuser/Google Drive/paper lib/Improved Data Stream Summaries The Count-Min Sketch and its Applications - 2004.pdf:pdf},
+  url =     {http://dimacs.rutgers.edu/~graham/pubs/papers/cm-full.pdf}
+}
+
+@Article{Hua2011,
+  author =   {Hua, Nan and Xu, Jun Jim and Lin, Bill and Zhao, Haiquan Chuck},
+  title =    {{BRICK: A novel exact active statistics counter architecture}},
+  journal =  {IEEE/ACM Transactions on Networking},
+  year =     {2011},
+  volume =   {19},
+  number =   {3},
+  pages =    {670--682},
+  abstract = {In this paper, we present an exact active statistics counter architecture called Bucketized Rank Indexed Counters (BRICK) that can efficiently store per-flow variable-width statistics counters entirely in SRAM while supporting both fast updates and lookups (e.g., 40-Gb/s line rates). BRICK exploits statistical multiplexing by randomly bundling counters into small fixed-size buckets and supports dynamic sizing of counters by employing an innovative indexing scheme called rank indexing. Experiments with Internet traces show that our solution can indeed maintain large arrays of exact active statistics counters with moderate amounts of SRAM.},
+  doi =      {10.1109/TNET.2011.2111461},
+  file =     {:C$\backslash$:/Users/gtuser/Google Drive/paper lib/BRICK A novel exact active statistics counter architecture - 2011.pdf:pdf},
+  isbn =     {9781605583464},
+  issn =     {10636692},
+  keywords = {Router,statistics counter},
+  url =      {http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5724260}
+}
+
+@InProceedings{Krishnamurthy2003,
+  author =    {Krishnamurthy, Balachander and Sen, Subhabrata and Zhang, Yin and Park, Florham and Chen, Yan},
+  title =     {{Sketch-based Change Detection : Methods , Evaluation , and Applications}},
+  booktitle = {IMC 2003},
+  year =      {2003},
+  file =      {:C$\backslash$:/Users/gtuser/Google Drive/paper lib/Sketch-based Change Detection Methods , Evaluation , and Applications - 2003.pdf:pdf},
+  isbn =      {1581137737},
+  keywords =  {change detection,data stream com-,forecasting,network anomaly detection,putation,sketch,time series analysis},
+  url =       {https://www.cs.utexas.edu/~yzhang/papers/nad-imc03.pdf}
+}
+
+@InProceedings{Kumar2004,
+  author =    {Kumar, Abhishek and Sung, Minho and Xu, Jun (Jim) and Wang, Jia},
+  title =     {{Data streaming algorithms for efficient and accurate estimation of flow size distribution}},
+  booktitle = {ACM SIGMETRICS},
+  year =      {2004},
+  volume =    {32},
+  number =    {1},
+  pages =     {177},
+  doi =       {10.1145/1012888.1005709},
+  file =      {:C$\backslash$:/Users/gtuser/Google Drive/paper lib/Data streaming algorithms for efficient and accurate estimation of flow size distribution - 2004.pdf:pdf},
+  isbn =      {1581136641},
+  issn =      {01635999},
+  journal =   {ACM SIGMETRICS Performance Evaluation Review},
+  keywords =  {data streaming,network measurement,statistical inference,traffic analysis},
+  url =       {http://www.cc.gatech.edu/~jx/reprints/SIGMETRICS04.pdf}
+}
+
+@InProceedings{Kumar2005a,
+  author =    {Kumar, Abhishek and Sung, Minho and Xu, Jun Jim and Zegura, Ellen W},
+  title =     {{A data streaming algorithm for estimating subpopulation flow size distribution}},
+  booktitle = {ACM SIGMETRICS},
+  year =      {2005},
+  volume =    {33},
+  number =    {1},
+  pages =     {61--72},
+  abstract =  {Statistical information about the flow sizes in the traffic passing through a network link helps a network operator to characterize network resource usage, infer traffic demands, detect traffic anomalies, and improve network performance through traffic engineering. Previous work on estimating the flow size distribution for the complete population of flows has produced techniques that either make inferences from sampled network traffic, or use data streaming approaches. In this work, we identify and solve a more challenging problem of estimating the size distribution and other statistical information about arbitrary subpopulations of flows. Inferring subpopulation flow statistics is more challenging than the complete population counterpart, since subpopulations of interest are often specified a posteriori (i.e., after the data collection is done), making it impossible for the data collection module to "plan in advance".Our solution consists of a novel mechanism that combines data streaming with traditional packet sampling to provide highly accurate estimates of subpopulation flow statistics. The algorithm employs two data collection modules operating in parallel --- a NetFlow-like packet sampler and a streaming data structure made up of an array of counters. Combining the data collected by these two modules, our estimation algorithm uses a statistical estimation procedure that correlates and decodes the outputs (observations) from both data collection modules to obtain flow statistics for any arbitrary subpopulation. Evaluations of this algorithm on real-world Internet traffic traces demonstrate its high measurement accuracy.},
+  doi =       {10.1145/1071690.1064221},
+  file =      {:C$\backslash$:/Users/gtuser/Google Drive/paper lib/A data streaming algorithm for estimating subpopulation flow size distribution - 2005.pdf:pdf},
+  isbn =      {1595930221},
+  issn =      {01635999},
+  journal =   {ACM SIGMETRICS Performance Evaluation Review},
+  keywords =  {algorithm,data streaming,em,flow statistics,statistical inference,traffic analysis},
+  url =       {http://www.cc.gatech.edu/~jx/reprints/f88-kumar.pdf}
+}
+
+@InProceedings{LuMontanari2008,
+  author =    {Lu, Yi and Montanari, Andrea},
+  title =     {{Counter braids: a novel counter architecture for per-flow measurement}},
+  booktitle = {Acm Sigmetrics},
+  year =      {2008},
+  volume =    {36},
+  pages =     {121--132},
+  abstract =  {Fine-grained network measurement requires routers and switches to update large arrays of counters at very high link speed (e.g. 40 Gbps). A naive algorithm needs an infeasible amount of SRAM to store both the counters and a flow-to- counter association rule, so that arriving packets can update corresponding counters at link speed. This has made accu- rate per-flow measurement complex and expensive, and mo- tivated approximate methods that detect and measure only the large flows. This paper revisits the problem of accurate per-flow mea- surement. We present a counter architecture, called Counter Braids, inspired by sparse random graph codes. In a nut- shell, Counter Braids “compresses while counting”. It solves the central problems (counter space and flow-to-counter as- sociation) of per-flow measurement by “braiding” a hierarchy of counters with random graphs. Braiding results in drastic space reduction by sharing counters among flows; and us- ing random graphs generated on-the-fly with hash functions avoids the storage of flow-to-counter association. The Counter Braids architecture is optimal (albeit with a complex decoder) as it achieves the maximum compression rate asymptotically. For implementation, we present a low- complexity message passing decoding algorithm, which can recover flow sizes with essentially zero error. Evaluation on Internet traces demonstrates that almost all flow sizes are recovered exactly with only a few bits of counter space per flow.},
+  doi =       {10.1145/1384529.1375472},
+  file =      {:C$\backslash$:/Users/gtuser/Google Drive/paper lib/Counter braids a novel counter architecture for per-flow measurement - 2008.pdf:pdf},
+  isbn =      {9781605580050},
+  issn =      {01635999},
+  keywords =  {message pass-,network measurement,statistics counters},
+  url =       {http://web.stanford.edu/~montanar/RESEARCH/FILEPAP/sigmetrics08_final.pdf}
+}
+
+@InProceedings{Ramabhadran2003,
+  author =    {Ramabhadran, Sriram and Varghese, George},
+  title =     {{Efficient implementation of a statistics counter architecture}},
+  booktitle = {ACM SIGMETRICS},
+  year =      {2003},
+  volume =    {31},
+  number =    {1},
+  pages =     {261},
+  abstract =  {Internet routers and switches need to maintain millions of (e.g., per prefix) counters at up to OC-768 speeds that are essential for traffic engineering. Unfortunately, the speed requirements require the use of large amounts of expensive SRAM memory. Shah et al [1] introduced a cheaper statistics counter architecture that uses a much smaller amount of SRAM by using the SRAM as a cache together with a (cheap) backing DRAM that stores the complete counters. Counters in SRAM are periodically updated to the DRAM before they overflow under the control of a counter management algorithm. Shah et al [1] also devised a counter management algorithm called LCF that they prove uses an optimal amount of SRAM. Unfortunately, it is difficult to implement LCF at high speeds because it requires sorting to evict the largest counter in the SRAM. This paper removes this bottleneck in [1] by proposing a counter management algorithm called LR(T) (Largest Recent with threshold T) that avoids sorting by only keeping a bitmap that tracks counters that are larger than threshold T. This allows LR(T) to be practically realizable using only at most 2 bits extra per counter and a simple pipelined data structure. Despite this, we show through a formal analysis, that for a particular value of the threshold T, the LR(T) requires an optimal amount of SRAM, matching LCF. Further, we also describe an implementation, based on a novel data structure called aggregated bitmap, that allows the LR(T) algorithm to be realized at line rates. Copyright 2003 ACM.},
+  doi =       {10.1145/885651.781060},
+  file =      {:C$\backslash$:/Users/gtuser/Google Drive/paper lib/Efficient implementation of a statistics counter architecture - 2003.pdf:pdf},
+  isbn =      {1581136641},
+  issn =      {01635999},
+  journal =   {ACM SIGMETRICS Performance Evaluation Review},
+  keywords =  {router,statistics counter},
+  url =       {http://cseweb.ucsd.edu/~varghese/PAPERS/srirampaper.pdf}
+}
+
+@Article{Shah2002,
+  author =   {Shah, Devavrat and Iyer, Sundar and Prahhakar, Balaji and McKeown, Nick},
+  title =    {{Maintaining statistics counters in router line cards}},
+  journal =  {IEEE Micro},
+  year =     {2002},
+  volume =   {22},
+  number =   {1},
+  pages =    {76--81},
+  abstract = {A network device stores and updates statistics counters. Using an optimal counter management algorithm minimizes required {\{}SRAM{\}} size and ensures correct line-rate operation for many counters.},
+  doi =      {10.1109/40.988692},
+  file =     {:C$\backslash$:/Users/gtuser/Google Drive/paper lib/Maintaining statistics counters in router line cards - 2002.pdf:pdf},
+  issn =     {02721732},
+  url =      {http://web.mit.edu/devavrat/www/stat-counter.pdf}
+}
+
+@InProceedings{Zhao2006a,
+  author =    {Zhao, Qi and Xu, Jun and Liu, Zhen},
+  title =     {{Design of a novel statistics counter architecture with optimal space and time efficiency}},
+  booktitle = {ACM SIGMETRICS},
+  year =      {2006},
+  volume =    {34},
+  number =    {1},
+  pages =     {323},
+  abstract =  {The problem of how to efficiently maintain a large number (say millions) of statistics counters that need to be incremented at very high speed has received considerable research attention recently. This problem arises in a variety of router management algorithms and data streaming algorithms, where a large array of counters is used to track various network statistics and to implement various counting sketches respectively. While fitting these counters entirely in SRAM meets the access speed requirement, a large amount of SRAM may be needed with a typical counter size of 32 or 64 bits, and hence the high cost. Solutions proposed in recent works have used hybrid architectures where small counters in SRAM are incremented at high speed, and occasionally written back ("flushed") to larger counters in DRAM. Previous solutions have used complex schedulers with tree-like or heap data structures to pick which counters in SRAM are about to overflow, and flush them to the corresponding DRAM counters.In this work, we present a novel hybrid SRAM/DRAM counter architecture that consumes much less SRAM and has a much simpler design of the scheduler than previous approaches. We show, in fact, that our design is optimal in the sense that for a given speed difference between SRAM and DRAM, our design uses the theoretically minimum number of bits per counter in SRAM. Our design uses a small write-back buffer (in SRAM) that stores indices of the overflowed counters (to be flushed to DRAM) and an extremely simple randomized algorithm to statistically guarantee that SRAM counters do not overflow in bursts large enough to fill up the write-back buffer even in the worst case. The statistical guarantee of the algorithm is proven using a combination of worst case analysis for characterizing the worst case counter increment sequence and a new tail bound theorem for bounding the probability of filling up the write-back buffer. Experiments with real Internet traffic traces show that the buffer size required in practice is significantly smaller than needed in the worst case.},
+  doi =       {10.1145/1140103.1140314},
+  file =      {:C$\backslash$:/Users/gtuser/Google Drive/paper lib/Design of a novel statistics counter architecture with optimal space and time efficiency - 2006.pdf:pdf},
+  isbn =      {1595933204},
+  issn =      {01635999},
+  keywords =  {data streaming,router,statistics counter},
+  url =       {http://www.cc.gatech.edu/~jx/reprints/Sigm06_counter.pdf}
+}

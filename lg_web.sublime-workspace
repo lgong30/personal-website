@@ -1,0 +1,617 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bla",
+				"backlogged_flow_number"
+			],
+			[
+				"max",
+				"max_delay〔variable〕"
+			],
+			[
+				"s",
+				"startswith"
+			],
+			[
+				"st",
+				"strip"
+			],
+			[
+				"u",
+				"uint32_t"
+			],
+			[
+				"num",
+				"num_of_voqs_"
+			],
+			[
+				"PO",
+				"PORT_TYPE"
+			],
+			[
+				"me",
+				"message_test"
+			],
+			[
+				"Msg",
+				"MsgMinWeight"
+			],
+			[
+				"m",
+				"message_test"
+			],
+			[
+				"to",
+				"tostring"
+			],
+			[
+				"we",
+				"weight_"
+			],
+			[
+				"min",
+				"min_value_"
+			],
+			[
+				"wei",
+				"weight_"
+			],
+			[
+				"MIN",
+				"MIN_WEIGHT_MSG"
+			],
+			[
+				"Me",
+				"MessageBase"
+			],
+			[
+				"M",
+				"MarkerSize"
+			],
+			[
+				"arr",
+				"arrival_time"
+			],
+			[
+				"p",
+				"print"
+			],
+			[
+				"ind",
+				"index"
+			],
+			[
+				"con",
+				"const_reference"
+			],
+			[
+				"szie",
+				"size_type"
+			],
+			[
+				"size",
+				"size_type"
+			],
+			[
+				"get",
+				"getQueueLength"
+			],
+			[
+				"q",
+				"q_id"
+			],
+			[
+				"p_",
+				"p_it"
+			],
+			[
+				"V",
+				"VOQ"
+			],
+			[
+				"push",
+				"push_back"
+			],
+			[
+				"ty",
+				"typename"
+			],
+			[
+				"q_",
+				"q_iterator"
+			],
+			[
+				"type",
+				"typedef"
+			],
+			[
+				"VQ",
+				"VOQ_S"
+			],
+			[
+				"set",
+				"setHeader"
+			],
+			[
+				"ms",
+				"msg_dst"
+			],
+			[
+				"msg",
+				"msg_src"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"C++11",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"C++11",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"Script Builder"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 431.0
+	},
+	"console":
+	{
+		"height": 306.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/longgong/git-reps/personal_cv/common/packages.tex",
+		"/Users/longgong/git-reps/personal_cv/2016-2017/research_intern/selected_publications.tex",
+		"/Users/longgong/git-reps/personal_cv/common/education.tex",
+		"/Users/longgong/git-reps/personal_cv/common/myRes.cls",
+		"/Users/longgong/git-reps/personal_cv/common/publications/long_gong_pre.bib",
+		"/Users/longgong/git-reps/personal_cv/2015-2016/long_gong_cv_full_2016.tex",
+		"/Users/longgong/git-reps/personal_cv/common/honor_short.tex",
+		"/Users/longgong/git-reps/personal_cv/2016-2017/research_intern/professional_experience.tex",
+		"/Users/longgong/git-reps/personal_cv/common/name_and_address.tex",
+		"/Users/longgong/git-reps/personal_cv/2016-2017/research_intern/objective.tex",
+		"/Users/longgong/git-reps/personal_cv/common/layout.tex",
+		"/Users/longgong/git-reps/personal_cv/common/customized_commands.tex",
+		"/Users/longgong/git-reps/personal_cv/lg_cv.sublime-project",
+		"/Users/longgong/git-reps/personal_cv/2016-2017/long_gong_cv_full.tex",
+		"/Users/longgong/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/Users/longgong/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/LaTeXTools.sublime-settings",
+		"/home/longgong/Dropbox/light-weight-switches/proposal/nets-crossbar-2016/bibs/cioq.bib",
+		"/home/longgong/.config/sublime-text-3/Packages/User/LaTeXTools.sublime-settings",
+		"/home/longgong/Dropbox/light-weight-switches/proposal/nets-crossbar-2016/qps_paper/shared_lib/packages_and_customized_commands.tex",
+		"/home/longgong/Dropbox/light-weight-switches/proposal/nets-crossbar-2016/sections/task3.tex",
+		"/home/longgong/Dropbox/light-weight-switches/proposal/nets-crossbar-2016/figures/serena-demo.tex",
+		"/Users/longgong/Dropbox/light-weight-switches/proposal/nets-crossbar-2016/proposal.log",
+		"/Users/longgong/Dropbox/light-weight-switches/proposal/nets-crossbar-2016/qps_paper/shared_lib/packages_and_customized_commands.tex",
+		"/Users/longgong/Dropbox/light-weight-switches/proposal/nets-crossbar-2016/qps_paper/qps.tex",
+		"/Users/longgong/Dropbox/light-weight-switches/proposal/nets-crossbar-2016/qps_paper/sections/qps-implementation.tex",
+		"/Users/longgong/Dropbox/light-weight-switches/proposal/nets-crossbar-2016/qps_paper/sections/appendix_d_e.tex",
+		"/Users/longgong/Dropbox/light-weight-switches/proposal/nets-crossbar-2016/qps_paper/sections/appendix.tex",
+		"/Users/longgong/Dropbox/light-weight-switches/proposal/nets-crossbar-2016/qps_paper/sections/evaluation-after-submit.tex",
+		"/Users/longgong/Dropbox/light-weight-switches/proposal/nets-crossbar-2016/proposal.bbl",
+		"/Users/longgong/Dropbox/light-weight-switches/proposal/nets-crossbar-2016/qps_paper/shared_lib/figure_confs.tex",
+		"/Users/longgong/Dropbox/light-weight-switches/proposal/nets-crossbar-2016/proposal.tex",
+		"/Users/longgong/Dropbox/light-weight-switches/proposal/nets-crossbar-2016/libs/packages.tex",
+		"/Users/longgong/Dropbox/light-weight-switches/proposal/nets-crossbar-2016/sections/bill_intro.tex",
+		"/usr/local/texlive/2015basic/README",
+		"/Users/longgong/Dropbox/light-weight-switches/proposal/draft-for-pSerena/jponew.bst",
+		"/Users/longgong/Dropbox/light-weight-switches/proposal/draft-for-pSerena/bib/draft.bib",
+		"/Users/longgong/Dropbox/light-weight-switches/proposal/draft-for-pSerena/sections/journal-abbreviations.tex",
+		"/Users/longgong/Dropbox/light-weight-switches/proposal/draft-for-pSerena/sections/parallel_serena_schemes.tex",
+		"/Users/longgong/Dropbox/light-weight-switches/proposal/draft-for-pSerena/proposalnsf.cls",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/shared_lib/figure_confs.tex",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/bib/qps-references.bib",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/shared_lib/packages_and_customized_commands.tex",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/sections/scheme-xu.tex",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/sections/introduction.tex",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/sections/background.tex",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/sections/stability_proof.tex",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/sections/evaluation-after-submit.tex",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/sections/appendix.tex",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/sections/title_and_authors.tex",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/sections/related_work.tex",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/sections/appendix_d_e.tex",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/sections/qps-implementation.tex",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/sections/qps_variants.tex",
+		"/Users/junxu/Dropbox/qps-revision/latex-codes/sections/stability_proof.tex",
+		"/Users/jx/Dropbox/QPS-REVISION/latex-codes/sections/appendix.tex",
+		"/Users/jx/Dropbox/QPS-REVISION/latex-codes/sections/scheme-xu.tex",
+		"/Users/jx/Dropbox/QPS-REVISION/latex-codes/sections/background.tex",
+		"/Users/junxu/Dropbox/QPS-REVISION/latex-codes/sections/scheme-xu.tex",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/sections/qps.tex",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/sections/abstract.tex",
+		"/home/longgong/.config/sublime-text-3/Packages/LaTeXTools/LaTeXTools (Advanced).sublime-settings",
+		"/home/longgong/git-reps/lws-simulations/bins/run_experiments.sh",
+		"/home/longgong/git-reps/lws-simulations/bins/run_experiments_dif_ports.sh",
+		"/home/longgong/git-reps/lws-latest/iSLIP_ShakeUp/run_experiments_diff_ports.sh",
+		"/home/longgong/git-reps/lws-simulations/bins/run_experiments_dif_ports_less_timeslots.sh",
+		"/home/longgong/git-reps/lws-latest/iSLIP_ShakeUp/iSLIP_ShakeUp_sim.cpp",
+		"/home/longgong/git-reps/lws-latest/iSLIP_ShakeUp/iSLIP_ShakeUp.hpp",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/figures/ds-revised-before-version-02.tex",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/figures/ds-revised-after-version-02.tex",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/figures/ds-revised-after-version-02 - copy.tex",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/figures/ds-revised-before-version-02 - copy.tex",
+		"/Users/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/bib/qps-references.bib",
+		"/Users/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/sections/related_work.tex",
+		"/home/longgong/.config/sublime-text-3/Packages/LaTeXTools/Default (Linux).sublime-keymap",
+		"/Users/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/shared_lib/packages_and_customized_commands.tex",
+		"/home/longgong/Dropbox/light-weight-switches/QPS-REVISION/latex-codes/qps_resub.sublime-project",
+		"/home/longgong/git-reps/light_weight_switches/distributed_serena/any_test.cpp",
+		"/home/longgong/git-reps/light_weight_switches/distributed_serena/tuple.hpp",
+		"/home/longgong/git-reps/light_weight_switches/distributed_serena/any.hpp",
+		"/home/longgong/git-reps/parallel-serena/parall_serena.sublime-project",
+		"/home/longgong/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/longgong/.ssh/config",
+		"/home/longgong/.vimrc",
+		"/home/longgong/.config/sublime-text-3/Packages/SideBarEnhancements/Default (Linux).sublime-keymap",
+		"/home/longgong/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
+		"/home/longgong/Downloads/article_2.tex",
+		"/home/longgong/Downloads/glpk-4.60/src/Makefile",
+		"/home/longgong/Downloads/glpk-4.60/INSTALL",
+		"/home/longgong/Downloads/lemon-1.3.1/build/Makefile",
+		"/home/longgong/Downloads/structure.tex",
+		"/home/longgong/Downloads/article_2."
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"author",
+			"authors",
+			"resume",
+			"figures",
+			"File",
+			"latexmk",
+			"error",
+			"latexmk",
+			"95",
+			"95_{th}",
+			"95-",
+			"95-per",
+			"error",
+			"\\\\newblock",
+			"cit",
+			"\\\\\\|",
+			"against",
+			"randomized",
+			"Tra",
+			"High-speed Switch",
+			"Anderson",
+			"theorem",
+			"maximum",
+			"weight",
+			"Weight",
+			"W\\^\\*\\(t\\+1\\)",
+			"S\\^\\*\\(t\\+1\\)",
+			"W\\^\\*\\(t\\)",
+			"S\\^\\*\\(t\\)",
+			"S^\\*(t)",
+			"S\\^\\*(t)",
+			"\\\\lambda\\^\\*",
+			"\\\\lambda\\^*",
+			"\\\\lambda^*",
+			"\\lambda^*",
+			"\\\\plus",
+			"open",
+			"autoref",
+			"proof",
+			"autoref",
+			"I",
+			" I",
+			"I",
+			"X",
+			">",
+			"<",
+			"\\\\big\\{>\\}",
+			"\\\\big\\{<\\}",
+			" ",
+			",",
+			"uint16_t",
+			"a"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"qps_paper/figures",
+			"95_{th} ",
+			"95_{th}",
+			"W_{Q\\(t\\+1\\)}",
+			"S_{Q\\(t\\+1\\)}",
+			"W_{Q\\(t\\)}",
+			"S_{Q\\(t\\)}",
+			"\\\\rho\\^\\*",
+			"\\\\rho\\^*",
+			"\\rho^*",
+			"S",
+			"Q",
+			"\\\\rangle ",
+			"\\\\langle ",
+			"\\\\langle",
+			",",
+			"\\n",
+			"MsgHeader::pid_t",
+			"pid_t",
+			"\\lambda"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 434.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 355.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 148.0
+	},
+	"pinned_build_system": "",
+	"project": "lg_web.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
